@@ -14,7 +14,7 @@ updated: 2020-06-21
 ### Introduction
 {: .-intro}
 
-- [A tour of Go](https://tour.golang.org/welcome/1) _(tour.golang.org)_
+- [A tour of Go](https://go.dev/tour) _(go.dev/tour)_
 - [Go repl](https://repl.it/languages/go) _(repl.it)_
 - [Golang wiki](https://github.com/golang/go/wiki/) _(github.com)_
 
@@ -43,7 +43,7 @@ func greetMe(name string) string {
 $ go build
 ```
 
-Or try it out in the [Go repl](https://repl.it/languages/go), or [A Tour of Go](https://tour.golang.org/welcome/1).
+Or try it out in the [Go repl](https://repl.it/languages/go), or [A Tour of Go](https://go.dev/tour).
 
 ### Variables
 
@@ -68,7 +68,7 @@ const Phi = 1.618
 
 Constants can be character, string, boolean, or numeric values.
 
-See: [Constants](https://tour.golang.org/basics/15)
+See: [Constants](https://go.dev/tour/basics/15)
 
 ## Basic types
 {: .-three-column}
@@ -151,7 +151,7 @@ a := new(int)
 
 Pointers point to a memory location of a variable. Go is fully garbage-collected.
 
-See: [Pointers](https://tour.golang.org/moretypes/1)
+See: [Pointers](https://go.dev/tour/moretypes/1)
 
 ### Type conversions
 
@@ -161,7 +161,7 @@ f := float64(i)
 u := uint(i)
 ```
 
-See: [Type conversions](https://tour.golang.org/basics/13)
+See: [Type conversions](https://go.dev/tour/basics/13)
 
 ## Flow control
 {: .-three-column}
@@ -179,7 +179,7 @@ if day == "sunday" || day == "saturday" {
 ```
 {: data-line="1,3,5"}
 
-See: [If](https://tour.golang.org/flowcontrol/5)
+See: [If](https://go.dev/tour/flowcontrol/5)
 
 ### Statements in if
 
@@ -192,7 +192,7 @@ if _, err := doThing(); err != nil {
 
 A condition in an `if` statement can be preceded with a statement before a `;`. Variables declared by the statement are only in scope until the end of the `if`.
 
-See: [If with a short statement](https://tour.golang.org/flowcontrol/6)
+See: [If with a short statement](https://go.dev/tour/flowcontrol/6)
 
 ### Switch
 
@@ -220,7 +220,7 @@ for count := 0; count <= 10; count++ {
 }
 ```
 
-See: [For loops](https://tour.golang.org/flowcontrol/1)
+See: [For loops](https://go.dev/tour/flowcontrol/1)
 
 ### For-Range loop
 
@@ -243,7 +243,7 @@ for n != x {
 }
 ```
 
-See: [Go's "while"](https://tour.golang.org/flowcontrol/3)
+See: [Go's "while"](https://go.dev/tour/flowcontrol/3)
 
 ## Functions
 {: .-three-column}
@@ -286,7 +286,7 @@ func split(sum int) (x, y int) {
 
 By defining the return value names in the signature, a `return` (no args) will return variables with those names.
 
-See: [Named return values](https://tour.golang.org/basics/7)
+See: [Named return values](https://go.dev/tour/basics/7)
 
 ## Packages
 {: .-three-column}
@@ -307,7 +307,7 @@ import (
 
 Both are the same.
 
-See: [Importing](https://tour.golang.org/basics/1)
+See: [Importing](https://go.dev/tour/basics/1)
 
 ### Aliases
 
@@ -330,7 +330,7 @@ func Hello () {
 
 Exported names begin with capital letters.
 
-See: [Exported names](https://tour.golang.org/basics/3)
+See: [Exported names](https://go.dev/tour/basics/3)
 
 ### Packages
 
@@ -373,7 +373,7 @@ func push(name string, ch chan string) {
 
 Channels are concurrency-safe communication objects, used in goroutines.
 
-See: [Goroutines](https://tour.golang.org/concurrency/1), [Channels](https://tour.golang.org/concurrency/2)
+See: [Goroutines](https://go.dev/tour/concurrency/1), [Channels](https://go.dev/tour/concurrency/2)
 
 ### Buffered channels
 
@@ -389,7 +389,7 @@ ch <- 3
 
 Buffered channels limit the amount of messages it can keep.
 
-See: [Buffered channels](https://tour.golang.org/concurrency/3)
+See: [Buffered channels](https://go.dev/tour/concurrency/3)
 
 ### Closing channels
 
@@ -418,7 +418,7 @@ for i := range ch {
 v, ok := <- ch
 ```
 
-See: [Range and close](https://tour.golang.org/concurrency/4)
+See: [Range and close](https://go.dev/tour/concurrency/4)
 
 ### WaitGroup
 
@@ -518,7 +518,7 @@ func main() {
 }
 ```
 
-See: [Structs](https://tour.golang.org/moretypes/2)
+See: [Structs](https://go.dev/tour/moretypes/2)
 
 ### Literals
 
@@ -571,7 +571,7 @@ v.Abs()
 
 There are no classes, but you can define functions with _receivers_.
 
-See: [Methods](https://tour.golang.org/methods/1)
+See: [Methods](https://go.dev/tour/methods/1)
 
 ### Mutation
 
@@ -591,7 +591,7 @@ v.Scale(0.5)
 
 By defining your receiver as a pointer (`*Vertex`), you can do mutations.
 
-See: [Pointer receivers](https://tour.golang.org/methods/4)
+See: [Pointer receivers](https://go.dev/tour/methods/4)
 
 ## Interfaces
 
@@ -642,7 +642,7 @@ func main() {
 ### Official resources
 {: .-intro}
 
-- [A tour of Go](https://tour.golang.org/welcome/1) _(tour.golang.org)_
+- [A tour of Go](https://go.dev/tour) _(go.dev/tour)_
 - [Golang wiki](https://github.com/golang/go/wiki/) _(github.com)_
 - [Effective Go](https://golang.org/doc/effective_go.html) _(golang.org)_
 
